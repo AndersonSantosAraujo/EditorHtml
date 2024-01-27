@@ -28,7 +28,7 @@ namespace EditorHtml
       } while (Console.ReadKey().Key != ConsoleKey.Escape);
 
       Console.WriteLine("-------------------");
-      Console.WriteLine(" Deseja salvar o arquivo?");
+      Console.Write(" Deseja salvar o arquivo? ");
     }
   }
 }
